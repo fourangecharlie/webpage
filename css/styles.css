@@ -1,0 +1,77 @@
+/*This sets the background as static, text will move independently of it. It also makes it cover the background. The text is aligned center by default. Timestamp:2/14/17*/
+body{
+
+  background-image: url('../resources/background.jpg');
+  background-size: cover;
+  text-align: center;
+  background-attachment: fixed;
+
+}
+/*This sets the Fourange logo as not bigger than the text.*/
+.name h1 img{
+
+  height: 70px;
+  width: 70px;
+
+}
+/*This sets the Fourange logotype in the actual logotype font. Timestamp:2/14/17*/
+.name h1 span {
+
+  font-family: 'Crimson Text', serif;
+
+}
+/*This sets my name as white Poppins.*/
+.name{
+
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+/*This makes my name huge, but not too huge, and not bold. Timestamp:2/14/17*/
+.name h1 {
+
+font-size: 100px;
+font-weight: 400;
+
+}
+/*This keeps the icons from being displayed vertically. Timestamp:2/14/17*/
+.icons div{
+
+  display: inline;
+
+}
+/*This sets the "About Me" title as bold white Poppins. Timestamp:2/14/17*/
+.aboutbutton h3{
+
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #B3E5FC;
+
+}
+/*This sets the about me content in regular white Poppins. Timestamp:2/14/17*/
+.about p{
+
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+
+}
+/*This sets the copyright text in regular white Poppins. Timestamp:2/14/17*/
+.copyright p{
+
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+
+}
+
+.active{
+
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+
+}
